@@ -22,6 +22,7 @@ struct CreativeView: View {
                 let songUrl = URL(fileURLWithPath: self.songPath!)
                 self.audio = nil
                 self.audio = try! AVAudioPlayer(contentsOf: songUrl) //adds the music track
+                self.audio.numberOfLoops = -1
                 self.audio?.play()
             }
         }
