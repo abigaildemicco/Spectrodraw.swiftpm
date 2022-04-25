@@ -7,3 +7,5 @@ The app allows you to **draw** on a black board while listening to a **music tra
 - AVFoundation *for capturing the track through the microphone*
 - Accelerate *for creating the spectrogram*
 
+## N.B
+***All music is copyright free, downloaded from Pixabay***
